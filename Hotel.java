@@ -1,5 +1,10 @@
+import java.io.*;
+
+
+
 public class Hotel {
     private Habitacion[] inventario = new Habitacion[2];
+    private String nombreFich = "hotel.txt";
 
     public void ejemplo(){
         inventario[0] = new Habitacion(101, 50 , false);
@@ -9,4 +14,6 @@ public class Hotel {
             System.err.println("Habitación " + h.numero + " | Total: " + h.calcularPrecioTotal());
         }
     }
+
+    public 
 }
